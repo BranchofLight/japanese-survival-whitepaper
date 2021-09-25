@@ -1,0 +1,64 @@
+.card {
+    position: relative;
+    width: 550px;
+    border: 1px solid black;
+    background-color: white;
+
+    &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+
+        position: absolute;
+        z-index: -1;
+        top: 5px;
+        left: 5px;
+        background-color: #C70025;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-left: 10px;
+        margin-right: 20px;
+
+        h2 {
+            font-size: 25px;
+            text-decoration: underline;
+        }        
+
+        button {
+            cursor: pointer;
+        }
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-left: 25px;
+        .content {
+            font-size: 18px;
+            border-left: 1px solid black;
+            margin-bottom: 20px;
+            padding-left: 5px;
+
+            :not(div:first-child) {
+                margin-top: 10px;
+            }
+
+            div:last-child {
+                font-size: 20px;
+            }
+        }
+
+        .audio {
+            margin-right: 40px;
+
+            width: 80px;
+            height: 80px;
+        }
+    }
+}
