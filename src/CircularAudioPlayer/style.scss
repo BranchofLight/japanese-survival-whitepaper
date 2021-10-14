@@ -32,11 +32,14 @@
     border: 3px solid #C70025;
     border-radius: 50%;
 
-    transition-duration: 0.5s;
+    transition-duration: 0.35s;
   }
 
   &:hover {
     cursor: pointer;
+    &::after {
+      border-style: dotted;
+    }
   }
 }
 
