@@ -14,14 +14,6 @@ module.exports = {
                 },
             },
             {
-                test: /\.(png|jpe?g|gif)$/i,
-                use: [
-                    {
-                        loader: "url-loader",
-                    },
-                ],
-            },
-            {
                 test: /\.s[ac]ss$/i,
                 use: [
                     // Creates `style` nodes from JS strings
