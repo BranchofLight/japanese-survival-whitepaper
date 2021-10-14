@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     width: 100%;
     height: 100%;
     margin: 0;
     background-color: pink;
+    overflow-x: hidden;
 }
 
 #app {
@@ -30,6 +31,10 @@ body {
         background-color: white;
         border: 5px solid black;
         padding: 15px 15px 15px 15px;
+
+        @media (max-width: 1200px) {
+            font-size: 25px
+        }
     }
 }
 
@@ -44,15 +49,28 @@ body {
     position: relative;
     z-index: 1;
 
-    .card:nth-child(-n+2) {
-        margin-top: 50px;
+    @media (max-width: 1200px) {
+        width: 400px;
+        flex-direction: column;
+
+        align-items: center;
+
+        .card:not(:last-child) {
+            margin-bottom: 15px;
+        }
     }
 
-    .card:nth-child(n+3) {
-        margin-top: 25px;
-    }
-
-    .card:nth-last-child(-n+2) {
-        margin-bottom: 50px;
+    @media (min-width: 1200px) {
+        .card:nth-child(-n+2) {
+            margin-top: 50px;
+        }
+    
+        .card:nth-child(n+3) {
+            margin-top: 25px;
+        }
+    
+        .card:nth-last-child(-n+2) {
+            margin-bottom: 50px;
+        }
     }
 }
