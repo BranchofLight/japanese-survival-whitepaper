@@ -1,11 +1,124 @@
 {
     "phrases": [
         {
-            "english": "Where is the nearest pub?",
-            "kanji": "近くの居酒屋はどこですか？",
-            "kana": "ちかくの　いざかやは　どこですか？",
-            "romaji": "chikakuno izakayawa dokodesuka?",
-            "audio": "https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
+            "english": "Hello! (early afternoon)",
+            "kanji": "こんにちは",
+            "kana": "こんにちは",
+            "romaji": "konnichiwa",
+            "audio": {
+                "fast": "こんにちは（早）",
+                "slow": "こんにちは（遅）"
+            }
+        },
+        {
+            "english": "Hello! (later afternoon)",
+            "kanji": "こんばんは",
+            "kana": "こんばんは",
+            "romaji": "konbanwa",
+            "audio": {
+                "fast": "こんばんは（早）",
+                "slow": "こんばんは（遅）"
+            }
+        },
+        {
+            "english": "Good morning!",
+            "kanji": "おはようございます",
+            "kana": "おはようございます",
+            "romaji": "ohayougozaimasu",
+            "audio": {
+                "fast": "おはようございます（早）",
+                "slow": "おはようございます（遅）"
+            }
+        },
+        {
+            "english": "Do you speak English?",
+            "kanji": "英語を話せますか？",
+            "kana": "えいごをはなせますか？",
+            "romaji": "eigowo hanasemasuka",
+            "audio": {
+                "fast": "英語話せ（早）",
+                "slow": "英語話せ（遅）"
+            }
+        },
+        {
+            "english": "I'm sorry / Excuse me",
+            "kanji": "済みません",
+            "kana": "すみません",
+            "romaji": "sumimasen",
+            "audio": {
+                "fast": "すみません（早）",
+                "slow": "すみません（遅）"
+            }
+        },
+        {
+            "english": "Where is the hotel?",
+            "kanji": "ホテルはどこですか？",
+            "kana": "ホテルはどこですか？",
+            "romaji": "hoteruwa dokodesuka?",
+            "audio": {
+                "fast": "どこですか（早）",
+                "slow": "どこですか（遅）"
+            }
+        },
+        {
+            "english": "May I have the bill please?",
+            "kanji": "お会計をお願いします",
+            "kana": "おかいけいをおねがいします",
+            "romaji": "okaikeio onegaishimasu",
+            "audio": {
+                "fast": "会計（早）",
+                "slow": "会計（遅）"
+            }
+        },
+        {
+            "english": "Do you take credit card?",
+            "kanji": "クレジットカードは使えますか",
+            "kana": "クレジットカードはつかえますか",
+            "romaji": "kurejitto kaadowa tsukaemasuka",
+            "audio": {
+                "fast": "クレジットカード（早）",
+                "slow": "クレジットカード（遅）"
+            }
+        },
+        {
+            "english": "Help! (emergency)",
+            "kanji": "助けて！",
+            "kana": "たすけて！",
+            "romaji": "tasukete!",
+            "audio": {
+                "fast": "助けて（早）",
+                "slow": "助けて（遅）"
+            }
+        },
+        {
+            "english": "Sorry, I don't know Japanese.",
+            "kanji": "済みません日本語分かりません",
+            "kana": "すみませんにほんごわかりません",
+            "romaji": "sumimasen nihongowakarimasen",
+            "audio": {
+                "fast": "日本語（早）",
+                "slow": "日本語（遅）"
+            }
+        },
+        {
+            "english": "Thanks for the meal.",
+            "kanji": "ご馳走様でした",
+            "kana": "ごちそうさまでした",
+            "romaji": "gochisousamadeshita",
+            "audio": {
+                "fast": "ごちそうさまでした（早）",
+                "slow": "ごちそうさまでした（遅）"
+            }
+        },
+        {
+            "english": "Can you repeat that please?",
+            "kanji": "もう一度言ってください",
+            "kana": "もういちどいってください",
+            "romaji": "mouichido ittekudasai",
+            "audio": {
+                "fast": "もう一度（早）",
+                "slow": "もう一度（遅）"
+            }
         }
     ]
 }

@@ -14,7 +14,6 @@ export default class Card extends React.Component {
             <div className="card">
                 <div className="header">
                     <h2>{props.english}</h2>
-                    <button>X</button>
                 </div>
                 <div className="container">
                     <div className="content">
@@ -23,7 +22,14 @@ export default class Card extends React.Component {
                         <div>{props.romaji}</div>
                     </div>
                     <div className="audio">
-                        <CircularAudioPlayer audio={props.audio} />
+                        <CircularAudioPlayer
+                            audio={props.audio.slow}
+                            symbol={"遅"}
+                        />
+                        <CircularAudioPlayer
+                            audio={props.audio.fast}
+                            symbol={"早"}
+                        />
                     </div>
                 </div>
             </div>

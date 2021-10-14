@@ -5,9 +5,10 @@ class CircularAudioPlayer extends React.Component {
     constructor(props) {
         super(props);
 
+        console.log(props);
         this.state = {
             isPlaying: false,
-            audio: new Audio(props.audio),
+            audio: new Audio(`data/audio/${props.audio}.mp3`),
         };
 
         this.state.audio.onended = () => {
@@ -33,7 +34,9 @@ class CircularAudioPlayer extends React.Component {
                 onPause={() => {
                     this.setState({ isPlaying: false });
                 }}
-            ></button>
+            >
+                {this.props.symbol}
+            </button>
         );
     }
 }
