@@ -7,6 +7,19 @@ export default class Card extends React.Component {
         super(props);
     }
 
+    getTypeEmoji(type) {
+        switch(type) {
+            case "LISTEN":
+                return "👂";
+            case "SPEAK":
+                return "🗣️";
+            case "ALL":
+                return "👂🗣️";
+            default:
+                return "";
+        }
+    }
+
     render() {
         const props = this.props.data;
         console.log(props);
@@ -14,6 +27,7 @@ export default class Card extends React.Component {
             <div className="card">
                 <div className="header">
                     <h2>{props.english}</h2>
+                    <span className="type">{this.getTypeEmoji(props.type)}</span>
                 </div>
                 <div className="container">
                     <div className="content">

@@ -16,9 +16,9 @@
   font-size: 36px;
 
   &.paused::after {
-    animation: spin 0.6s linear 0s infinite;
+    animation: spin 2s linear 0s infinite;
     border-color: green;
-    border-style: dotted;
+    border-style: dashed;
   }
 
   &::after {

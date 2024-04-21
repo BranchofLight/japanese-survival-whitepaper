@@ -5,6 +5,7 @@
             "kanji": "こんにちは",
             "kana": "こんにちは",
             "romaji": "konnichiwa",
+            "type": "ALL",
             "audio": {
                 "fast": "こんにちは（早）",
                 "slow": "こんにちは（遅）"
@@ -15,16 +16,18 @@
             "kanji": "こんばんは",
             "kana": "こんばんは",
             "romaji": "konbanwa",
+            "type": "ALL",
             "audio": {
                 "fast": "こんばんは（早）",
                 "slow": "こんばんは（遅）"
             }
         },
         {
-            "english": "Good morning!",
+            "english": "Good morning! / Hello! (morning)",
             "kanji": "おはようございます",
             "kana": "おはようございます",
             "romaji": "ohayougozaimasu",
+            "type": "ALL",
             "audio": {
                 "fast": "おはようございます（早）",
                 "slow": "おはようございます（遅）"
@@ -35,6 +38,7 @@
             "kanji": "英語を話せますか？",
             "kana": "えいごをはなせますか？",
             "romaji": "eigowo hanasemasuka",
+            "type": "SPEAK",
             "audio": {
                 "fast": "英語話せ（早）",
                 "slow": "英語話せ（遅）"
@@ -45,6 +49,7 @@
             "kanji": "済みません",
             "kana": "すみません",
             "romaji": "sumimasen",
+            "type": "ALL",
             "audio": {
                 "fast": "すみません（早）",
                 "slow": "すみません（遅）"
@@ -55,6 +60,7 @@
             "kanji": "ホテルはどこですか？",
             "kana": "ホテルはどこですか？",
             "romaji": "hoteruwa dokodesuka?",
+            "type": "SPEAK",
             "audio": {
                 "fast": "どこですか（早）",
                 "slow": "どこですか（遅）"
@@ -65,6 +71,7 @@
             "kanji": "お会計をお願いします",
             "kana": "おかいけいをおねがいします",
             "romaji": "okaikeio onegaishimasu",
+            "type": "SPEAK",
             "audio": {
                 "fast": "会計（早）",
                 "slow": "会計（遅）"
@@ -75,6 +82,7 @@
             "kanji": "クレジットカードは使えますか",
             "kana": "クレジットカードはつかえますか",
             "romaji": "kurejitto kaadowa tsukaemasuka",
+            "type": "SPEAK",
             "audio": {
                 "fast": "クレジットカード（早）",
                 "slow": "クレジットカード（遅）"
@@ -85,6 +93,7 @@
             "kanji": "助けて！",
             "kana": "たすけて！",
             "romaji": "tasukete!",
+            "type": "ALL",
             "audio": {
                 "fast": "助けて（早）",
                 "slow": "助けて（遅）"
@@ -95,6 +104,7 @@
             "kanji": "済みません日本語分かりません",
             "kana": "すみませんにほんごわかりません",
             "romaji": "sumimasen nihongowakarimasen",
+            "type": "SPEAK",
             "audio": {
                 "fast": "日本語（早）",
                 "slow": "日本語（遅）"
@@ -105,6 +115,7 @@
             "kanji": "ご馳走様でした",
             "kana": "ごちそうさまでした",
             "romaji": "gochisousamadeshita",
+            "type": "ALL",
             "audio": {
                 "fast": "ごちそうさまでした（早）",
                 "slow": "ごちそうさまでした（遅）"
@@ -115,9 +126,87 @@
             "kanji": "もう一度言ってください",
             "kana": "もういちどいってください",
             "romaji": "mouichido ittekudasai",
+            "type": "ALL",
             "audio": {
                 "fast": "もう一度（早）",
                 "slow": "もう一度（遅）"
+            }
+        },
+        {
+            "english": "Thank you.",
+            "kanji": "ありがとうございます",
+            "kana": "ありがとうございます",
+            "romaji": "arigatougozaimasu",
+            "type": "ALL",
+            "audio": {
+                "fast": "ありがとうございます　（早）",
+                "slow": "ありがとうございます　（遅）"
+            }
+        },
+        {
+            "english": "No.",
+            "kanji": "いいえ",
+            "kana": "いいえ",
+            "romaji": "iie",
+            "type": "ALL",
+            "audio": {
+                "fast": "いいえ　（早）",
+                "slow": "いいえ　（遅）"
+            }
+        },
+        {
+            "english": "Yes.",
+            "kanji": "はい",
+            "kana": "はい",
+            "romaji": "hai",
+            "type": "ALL",
+            "audio": {
+                "fast": "はい　（早）",
+                "slow": "はい　（遅）"
+            }
+        },
+        {
+            "english": "Cheers!",
+            "kanji": "乾杯！",
+            "kana": "かんぱい！",
+            "romaji": "kanpai!",
+            "type": "ALL",
+            "audio": {
+                "fast": "乾杯　（早）",
+                "slow": "乾杯　（遅）"
+            }
+        },
+        {
+            "english": "Please heat this up (Conbini)",
+            "kanji": "温めてください",
+            "kana": "あたためてください",
+            "romaji": "atatametekudasai",
+            "type": "SPEAK",
+            "audio": {
+                "fast": "温めてください　（早）",
+                "slow": "温めてください　（遅）"
+            }
+        },
+        {
+            "english": "Do you need a bag? (Conbini)",
+            "kanji": "袋いりますか？",
+            "kana": "ふくろいりますか？",
+            "romaji": "fukuroirmasuka",
+            "type": "LISTEN",
+            "audio": {
+                "fast": "袋いりますか？　（早）",
+                "slow": "袋いりますか？　（遅）"
+            }
+        },
+        {
+            "english": "Thank you. (abbreviated, slang)",
+            "kanji": "あざーす",
+            "kana": "あざーす",
+            "romaji": "azaasu",
+            "type": "LISTEN",
+            "audio": {
+                "fast": "あざーす　（早）",
+                "slow": "あざーす　（遅）"
             }
         }
     ]
