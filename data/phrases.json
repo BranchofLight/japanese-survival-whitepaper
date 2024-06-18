@@ -208,6 +208,17 @@
                 "fast": "あざーす　（早）",
                 "slow": "あざーす　（遅）"
             }
+        },
+        {
+            "english": "I'm okay / That's okay / I'm fine / I don't need (help / a bag / etc)",
+            "kanji": "大丈夫です",
+            "kana": "だいじょうぶです",
+            "romaji": "daijoubudesu",
+            "type": "ALL",
+            "audio": {
+                "fast": "大丈夫です（女性）",
+                "slow": "大丈夫です（男性）"
+            }
         }
     ]
 }
