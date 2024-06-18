@@ -216,8 +216,8 @@
             "romaji": "daijoubudesu",
             "type": "ALL",
             "audio": {
-                "fast": "大丈夫です（女性）",
-                "slow": "大丈夫です（男性）"
+                "woman": "大丈夫です（女性）",
+                "man": "大丈夫です（男性）"
             }
         }
     ]

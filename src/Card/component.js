@@ -37,12 +37,12 @@ export default class Card extends React.Component {
                     </div>
                     <div className="audio">
                         <CircularAudioPlayer
-                            audio={props.audio.slow}
-                            symbol={"遅"}
+                            audio={props.audio.slow || props.audio.woman}
+                            symbol={props.audio.slow ? "遅" : "女"}
                         />
                         <CircularAudioPlayer
-                            audio={props.audio.fast}
-                            symbol={"早"}
+                            audio={props.audio.fast || props.audio.man}
+                            symbol={props.audio.fast ? "早" : "男"}
                         />
                     </div>
                 </div>
